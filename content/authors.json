@@ -1,11 +1,15 @@
 [
   {
     "name": "Sude Bektaşoğlu",
-    "path": "/author/sudebektasoglu/"
+    "path": "/author/sudebektasoglu/",
+    "bio": "",
+    "image": "https://secure.gravatar.com/avatar/503a13cee80e8e82b50ab53b6e4ea2a1?s=100&d=mm&r=g"
   },
   {
     "name": "Bilgin Koçak",
-    "path": "/author/bilginkocak/"
+    "path": "/author/bilginkocak/",
+    "bio": "",
+    "image": "https://secure.gravatar.com/avatar/ec60b5804f50a7c168a4b0ca83ff716f?s=100&d=mm&r=g"
   },
   {
     "name": "Umut Koçak",
@@ -13,10 +17,14 @@
   },
   {
     "name": "Mirbey Mercan",
-    "path": "/author/mirbeymercan/"
+    "path": "/author/mirbeymercan/",
+    "bio": "",
+    "image": "https://secure.gravatar.com/avatar/126f2e709deff5edd855e11ff09a115b?s=100&d=mm&r=g"
   },
   {
     "name": "Yıldız Çimen",
-    "path": "/author/yildizcimen/"
+    "path": "/author/yildizcimen/",
+    "bio": "",
+    "image": "https://secure.gravatar.com/avatar/8faff48b888d164491b518ae0d376d78?s=100&d=mm&r=g"
   }
 ]

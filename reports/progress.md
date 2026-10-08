@@ -25,3 +25,11 @@
 - Desktop popular-post drawer added after browser test observed failing then passing; keyboard Escape verified.
 - Higher-resolution original image variants preferred over small thumbnails; invalid historical data-src article URL removed from featured-image metadata.
 - Final pre-review gate: npm test 12/12, npm run build succeeds, export validator 76 pages / 0 errors, Playwright 7/7, dependency audit 0 vulnerabilities.
+- Final review: one fresh reviewer; six Important recovery findings and one RSS documentation correction. Findings and scope judgments recorded in code-review.md.
+- Final: fixed registry/listing loss — actual cached-only recovery/catalog fixture RED→GREEN.
+- Final: fixed capture precedence/truncated-body choice — complete/partial fixtures and actual recovery command RED→GREEN.
+- Final: fixed invented metadata and equivalent Turkish encoding identities — null URL, invalid date/author and path normalization fixtures RED→GREEN.
+- Final: fixed failed refresh downgrade — prior verified body regression RED→GREEN.
+- Final: fixed failed image upgrade downgrade — preserved image mapping/checksum regression RED→GREEN.
+- Final gate after review fixes: npm test 19/19. Build/browser checks rerun before push.
+- User chose to handle Netlify deployment themselves; delivery scope ends at the pushed repository and deployment instructions.

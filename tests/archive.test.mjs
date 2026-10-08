@@ -7,6 +7,14 @@ test('archive and host variants converge without changing Turkish paths', () => 
   assert.equal(normalizeUrl('https://futuristikzone.com/%C3%A7evre/?utm_source=x#comments'), 'https://futuristikzone.com/%C3%A7evre/');
   assert.equal(classifyUrl('https://futuristikzone.com/category/yapay-zeka/page/2/'), 'category');
   assert.equal(classifyUrl('https://futuristikzone.com/wp-json/'), 'ignore');
+  assert.equal(normalizeUrl('https://futuristikzone.com/çevre/'),normalizeUrl('https://futuristikzone.com/%c3%a7evre/'));
+});
+
+test('missing URLs stay null and invalid original metadata is never complete',()=>{
+  assert.equal(normalizeUrl(undefined),null);assert.equal(normalizeUrl(''),null);
+  const html='<meta property="article:published_time" content="bad-date"><h1>Özgün başlık</h1><div class="penci-post-entry-inner"><p>'+('Özgün uzun metin. '.repeat(30))+'</p></div>';
+  const p=extractPage(html,'https://futuristikzone.com/yazi/','https://web.archive.org/web/20250101000000id_/https://futuristikzone.com/yazi/');
+  assert.equal(p.author,null);assert.equal(p.featuredImage,null);assert.equal(p.previous,null);assert.equal(p.next,null);assert.equal(p.recoveryStatus,'partial');
 });
 
 test('recovers missing article text and original dates from Atom without rewriting prose',()=>{

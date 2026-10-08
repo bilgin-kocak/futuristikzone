@@ -2,6 +2,8 @@
 
 Eleven archived/restored pairs are saved in [the side-by-side viewer](visual-comparison.html) and `comparisons/`. The original screenshots are in `archive-reference/screenshots/`; local screenshots are in `reports/screenshots/`. Each uses the same viewport width and a 1000 px browser height, with full-page capture.
 
+Chromium's full-page screenshot capture painted the negative-position fixed skip link into the mobile header even though normal viewport screenshots showed it correctly offscreen. The capture command hides that unfocused link only during screenshots; keyboard focus behavior remains unchanged in the application.
+
 | Page | Widths | Comparison |
 | --- | --- | --- |
 | Homepage | 1440, 768, 390 | [Desktop](comparisons/home-1440.png), [tablet](comparisons/home-768.png), [mobile](comparisons/home-390.png) |

@@ -24,7 +24,8 @@ export function extractAtom(xml, archivedUrl, authors=[], categories=[]) {
   });
 }
 export function unarchiveUrl(input, base = 'https://futuristikzone.com/') {
-  let value = input?.trim() || '';
+  if(typeof input!=='string'||!input.trim())return null;
+  let value = input.trim();
   value = value.replace(/^https?:\/\/web\.archive\.org\/web\/\d+(?:[a-z]+_)?\//, '');
   value = value.replace(/^\/web\/\d+(?:[a-z]+_)?\//, '');
   if (value.startsWith('//')) value = `https:${value}`;
@@ -35,7 +36,7 @@ export function normalizeUrl(input) {
   if (!original) return null;
   const url = new URL(original);
   if (!/^(www\.)?futuristikzone\.com$/i.test(url.hostname)) return null;
-  let path = url.pathname.replace(/\/+/g, '/');
+  let path = url.pathname.replace(/\/+/g, '/').replace(/%[a-f0-9]{2}/gi,escape=>escape.toUpperCase());
   if (!/\.[a-z0-9]{2,5}$/i.test(path) && !path.endsWith('/')) path += '/';
   return `https://futuristikzone.com${path}`;
 }
@@ -87,7 +88,9 @@ export function extractPage(html, originalUrl, archivedUrl) {
     allowedSchemes: ['https','http','mailto'],
   });
   const authorEl=$('.post-box-meta-single a[href*="/author/"], .author-post a[href*="/author/"], .author.vcard a').first();
-  const authorUrl=normalizeUrl(authorEl.attr('href'));
+  const candidateAuthorUrl=normalizeUrl(authorEl.attr('href'));
+  const authorName=cleanText(authorEl.text());
+  const authorUrl=candidateAuthorUrl&&/^\/author\/[^/]+\/$/.test(new URL(candidateAuthorUrl).pathname)&&authorName?candidateAuthorUrl:null;
   const categories = [];
   $('.penci-standard-cat a[href*="/category/"], .cat a[href*="/category/"]').each((_,el)=> {
     const url=normalizeUrl($(el).attr('href'));
@@ -102,12 +105,14 @@ export function extractPage(html, originalUrl, archivedUrl) {
   const excerpt = cleanText($('meta[name="description"]').attr('content')) || cleanText(body.find('p').first().text());
   const archiveTimestamp=archivedUrl.match(/\/web\/(\d+)/)?.[1] || null;
   const bodyText=cleanText(cheerio.load(content).text());
-  const recoveryStatus = content && (type !== 'article' || (publishedAt && authorUrl && bodyText.length > 150)) ? 'complete' : (bodyText ? 'partial' : 'unavailable');
+  const validDate=!!publishedAt&&Number.isFinite(Date.parse(publishedAt));
+  const recoveryStatus = content && title && (type !== 'article' || (validDate && authorUrl && bodyText.length > 150)) ? 'complete' : (bodyText ? 'partial' : 'unavailable');
   return {
     type,path,slug:path.split('/').filter(Boolean).at(-1) || '',title,publishedAt,
-    author: authorUrl ? {name:cleanText(authorEl.text()),path:new URL(authorUrl).pathname} : null,
+    author: authorUrl ? {name:authorName,path:new URL(authorUrl).pathname} : null,
     categories,tags,excerpt,content,featuredImage,images,links,originalUrl,archivedUrl,archiveTimestamp,recoveryStatus,
     previous:adjacent('.post-pagination .prev-post a'),next:adjacent('.post-pagination .next-post a'),authorDetails,
+    qualityEvidence:{bodyCharacters:bodyText.length,validTitle:!!title,validDate,validAuthor:!!authorUrl,lastEditorialText:cleanText(contentRoot('p,li,h2,h3,h4,figcaption').last().text()).slice(-200)},
     recoveryNote: recoveryStatus==='complete' ? 'Editorial body extracted from the archived DOM; completeness is relative to the available capture.' : 'Missing body or required original metadata; inspect other captures.',
     seo:{description:excerpt,title:cleanText($('title').text())},
   };

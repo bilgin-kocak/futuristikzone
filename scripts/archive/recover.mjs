@@ -1,10 +1,12 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import * as cheerio from 'cheerio';
 import { CUTOFF, normalizeUrl, classifyUrl, extractPage, unarchiveUrl } from './core.mjs';
-import { cachedPage, readJson, saveJson } from './io.mjs';
+import { cachedPage, readJson, readRecords, saveJson } from './io.mjs';
+import {selectRecovery,bodyCharacters} from './recovery-state.mjs';
 
 const manifest=await readJson('content/manifest.json',{});
 let cdx=await readJson('.archive-cache/cdx-all.json',null);
+if(!cdx&&process.argv.includes('--cached-only'))cdx=[];
 if(!cdx) {
   try {
     const response=await cachedPage(`https://web.archive.org/cdx/search/cdx?url=futuristikzone.com&matchType=domain&output=json&filter=statuscode:200&filter=mimetype:text/html&to=${CUTOFF}`);
@@ -32,16 +34,20 @@ for(const url of captures.keys())enqueue(url,'CDX domain index');
 for(let i=2;i<=8;i++)enqueue(`https://futuristikzone.com/page/${i}/`,'homepage pagination');
 for(const url of Object.keys(manifest))enqueue(url,manifest[url].discoveredFrom);
 
-const categories=new Map(); const authors=new Map(); const pages=[]; const articles=[]; const assetUrls=new Map((await readJson('content/asset-sources.json',[])).map(a=>[a.url,a]));
+const categories=new Map((await readJson('content/categories/index.json',[])).map(c=>[c.path,c]));
+const authors=new Map((await readJson('content/authors.json',[])).map(a=>[a.path,a]));
+const pages=new Map((await readRecords('content/pages')).map(p=>[p.path,p]));
+const articles=new Map((await readRecords('content/articles')).map(p=>[p.path,p]));
+const assetUrls=new Map((await readJson('content/asset-sources.json',[])).map(a=>[a.url,a]));
 let layout=await readJson('content/site.json',{});
 function collect(page,html) {
-  const details=extractPage(html,page.originalUrl,page.archivedUrl);
-  page.previous=details.previous;page.next=details.next;page.authorDetails=details.authorDetails;
+  if(html){const details=extractPage(html,page.originalUrl,page.archivedUrl);page.previous=details.previous;page.next=details.next;page.authorDetails=details.authorDetails;}
   for(const link of page.links)enqueue(link,page.originalUrl);
   for(const image of page.images)assetUrls.set(image.url,image);
   if(page.featuredImage)assetUrls.set(page.featuredImage,{url:page.featuredImage,alt:page.title});
-  if(page.type==='article' && page.content){articles.push(page);for(const c of page.categories)categories.set(c.path,c);if(page.author)authors.set(page.author.path,page.author);}
-  if(page.type==='page' && page.content)pages.push(page);
+  if(page.type==='article' && page.content){articles.set(page.path,page);for(const c of page.categories)categories.set(c.path,c);if(page.author)authors.set(page.author.path,{...authors.get(page.author.path),...page.author});}
+  if(page.type==='page' && page.content)pages.set(page.path,page);
+  if(!html)return;
   const $=cheerio.load(html);
   if(page.type==='home') {
     const paths=selector=>[...new Set($(selector).toArray().map(el=>normalizeUrl($(el).attr('href'))).filter(Boolean).map(url=>new URL(url).pathname))];
@@ -59,15 +65,15 @@ function collect(page,html) {
 }
 for(let i=0;i<queue.length;i++) {
   const url=queue[i];const entry=manifest[url];
-  let result;
+  let previous;
+  if(entry.cacheFile){try{previous=JSON.parse(await readFile(entry.cacheFile,'utf8'));}catch{}}
+  const stored=articles.get(new URL(url).pathname)||pages.get(new URL(url).pathname);
+  if(!previous&&stored)previous={page:stored,html:null};
+  let result=previous;
   const newest=captures.get(url)?.[0]?.timestamp;
-  if(entry.status==='complete' && entry.cacheFile && (!newest || entry.archiveTimestamp>=newest)) {
-    try{result=JSON.parse(await readFile(entry.cacheFile,'utf8'));}catch{}
-  }
-  if(!result) {
-    if(process.argv.includes('--cached-only'))continue;
+  const refresh=!previous||entry.status!=='complete'||(newest&&previous.page.archiveTimestamp<newest);
+  if(refresh&&!process.argv.includes('--cached-only')) {
     const candidates=captures.get(url)||[{timestamp:'20260209013603',original:url}];
-    let best;
     for(const candidate of candidates.slice(0,4)) {
       const archive=`https://web.archive.org/web/${candidate.timestamp}id_/${candidate.original}`;
       try {
@@ -77,13 +83,14 @@ for(let i=0;i<queue.length;i++) {
         if(!/<(?:html|body)/i.test(fetched.body)||/Wayback Machine doesn't have that page|This URL has been excluded/i.test(fetched.body))throw new Error('No archived editorial HTML');
         const extracted=extractPage(fetched.body,url,fetched.url);
         if(/Wayback Machine|Internet Archive/.test(extracted.title))throw new Error('Archive error page');
-        entry.attempts.push({archive,status:extracted.recoveryStatus});
-        if(!best||extracted.content.length>best.page.content.length)best={page:extracted,html:fetched.body};
-        if(extracted.recoveryStatus==='complete'||!['article','page'].includes(entry.type))break;
+        entry.attempts.push({archive,status:extracted.recoveryStatus,bodyCharacters:bodyCharacters(extracted)});
+        if(['article','page'].includes(entry.type))result=selectRecovery(result,{page:extracted,html:fetched.body});
+        else {result={page:extracted,html:fetched.body};break;}
       }catch(error){entry.attempts.push({archive,error:error.message});}
     }
-    result=best;
+    entry.selectionReason=result===previous?'Preserved the previous verified body; the refresh offered no better usable capture.':'Compared available captures, preferring complete metadata and more editorial text; timestamp breaks ties.';
   }
+  if(!result&&process.argv.includes('--cached-only'))continue;
   if(result) {
     collect(result.page,result.html);
     entry.status=['article','page'].includes(entry.type)?result.page.recoveryStatus:'complete';
@@ -102,5 +109,5 @@ await saveJson('content/authors.json',[...authors.values()]);
 await saveJson('content/site.json',layout);
 await saveJson('content/asset-sources.json',[...assetUrls.values()]);
 const entries=Object.values(manifest);
-await writeFile('reports/recovery-summary.md',`# Content recovery\n\nDiscovered editorial URLs: ${entries.length}\n\nComplete articles: ${articles.filter(p=>p.recoveryStatus==='complete').length}\n\nPartial articles: ${articles.filter(p=>p.recoveryStatus==='partial').length}\n\nUnavailable URLs: ${entries.filter(p=>p.status==='unavailable').length}\n\nCutoff: 9 February 2026. Discovery combines the CDX domain index and links from homepage, pagination, categories, authors, tags, and articles. “Complete” refers to the available archived editorial body; an archive cannot prove every original page segment was captured.\n\n## Unavailable\n\n${entries.filter(p=>p.status==='unavailable').map(p=>`- ${p.originalUrl}`).join('\n')}\n`);
-console.log(`Done: ${articles.length} article bodies, ${assetUrls.size} image URLs.`);
+await writeFile('reports/recovery-summary.md',`# Content recovery\n\nDiscovered editorial URLs: ${entries.length}\n\nComplete articles: ${[...articles.values()].filter(p=>p.recoveryStatus==='complete').length}\n\nPartial articles: ${[...articles.values()].filter(p=>p.recoveryStatus==='partial').length}\n\nUnavailable URLs: ${entries.filter(p=>p.status==='unavailable').length}\n\nCutoff: 9 February 2026. Discovery combines the CDX domain index and links from homepage, pagination, categories, authors, tags, and articles. “Complete” refers to the available archived editorial body; an archive cannot prove every original page segment was captured.\n\n## Unavailable\n\n${entries.filter(p=>p.status==='unavailable').map(p=>`- ${p.originalUrl}`).join('\n')}\n`);
+console.log(`Done: ${articles.size} article bodies, ${assetUrls.size} image URLs.`);

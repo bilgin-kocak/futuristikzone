@@ -115,14 +115,8 @@
     "description": "",
     "title": "Manifestomuz - FuturistikZone"
   },
-  "previous": {
-    "path": "/",
-    "title": ""
-  },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "previous": null,
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": null,

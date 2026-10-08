@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 export const hash = value => createHash('sha256').update(value).digest('hex').slice(0,20);
@@ -27,3 +27,8 @@ export async function cachedPage(url) {
 }
 export async function saveJson(file,data) {await mkdir(path.dirname(file),{recursive:true});await writeFile(file,JSON.stringify(data,null,2)+'\n');}
 export async function readJson(file,fallback) {try{return JSON.parse(await readFile(file,'utf8'));}catch{return fallback;}}
+export async function readRecords(directory){
+  let names;try{names=await readdir(directory);}catch{return [];}
+  const records=await Promise.all(names.filter(f=>f.endsWith('.json')).map(f=>readJson(path.join(directory,f),null)));
+  return records.filter(Boolean);
+}

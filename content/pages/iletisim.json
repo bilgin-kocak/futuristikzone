@@ -87,14 +87,8 @@
     "description": "Bir sorunuz, bir yorumunuz mu var? Bir şekilde işbirliği yapmak ister misiniz? Söyleyecek güzel bir şeyiniz mi var?Sizden haber almak isteriz",
     "title": "İletişim - Bizimle İletişime Geçin - FuturistikZone %"
   },
-  "previous": {
-    "path": "/",
-    "title": ""
-  },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "previous": null,
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": null,

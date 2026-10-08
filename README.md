@@ -8,7 +8,7 @@ Static reconstruction of the original WordPress publication, based on Internet A
 - 13 verified original images, including the logo and two author avatars.
 - 14 original categories, 10 author archives, About, Contact, tag archives, and captured homepage pagination through pages 2, 3 and 8.
 - 76 public static routes; 74 indexable sitemap URLs; RSS contains all 27 articles.
-- Build, 12 unit tests, 7 browser tests, and export integrity checks pass.
+- Build, 19 unit tests, 7 browser tests, and export integrity checks pass.
 
 “Full” means the editorial body present in the archived source. The archive cannot prove that every original segment survived. Some listings retain original excerpts whose article bodies are unavailable. Those excerpts have no article link and are labeled in Turkish.
 
@@ -43,7 +43,7 @@ The committed `content/` and `public/` files are sufficient to build. Archive ac
 npm run recover:all
 ```
 
-The pipeline queries the CDX domain index across HTTP/HTTPS and `www`, traverses original links, tries captures on or before 9 February 2026, explores historical homepages, supplements bodies from the archived Atom feed, and downloads verified images. Requests are sequential, throttled, retried with exponential backoff, and cached under ignored `.archive-cache/`. A rerun updates files by original slug rather than duplicating posts. Missing source pages remain in the manifest.
+The pipeline queries the CDX domain index across HTTP/HTTPS and `www`, traverses original links, tries up to four captures on or before 9 February 2026, explores historical homepages, supplements bodies from the archived Atom feed, and downloads verified images. It compares candidate bodies before choosing: valid complete metadata wins over partial metadata, more editorial text wins within the same status, and the newer timestamp breaks ties. Each refresh retains the previous verified body/image if replacements fail or are worse. Requests are sequential, throttled, retried with exponential backoff, and cached under ignored `.archive-cache/`. A rerun updates files by original slug rather than duplicating posts. Missing source pages remain in the manifest, and committed registries/listings survive absent caches.
 
 ```bash
 node scripts/archive/recover.mjs --cached-only
@@ -60,7 +60,7 @@ Browser audit commands require installed Chromium. The local capture command req
 1. In Netlify, choose **Add new project → Import an existing project → GitHub** and select `bilgin-kocak/futuristikzone`.
 2. Deploy branch `main`. The committed `netlify.toml` sets build command `npm run build`, publish directory `out`, and Node 22.
 3. This is a static export; no Next.js server runtime is required. `NETLIFY_NEXT_PLUGIN_SKIP=true` keeps deployment focused on the exported files. See [Next.js static exports](https://nextjs.org/docs/app/guides/static-exports).
-4. Verify the assigned `*.netlify.app` URL, an article URL, `/page/2/`, `/sitemap.xml`, `/feed.xml`, and a 404 before connecting the domain.
+4. Verify the assigned `*.netlify.app` URL, an article URL, `/page/2/`, `/sitemap.xml`, `/rss.xml`, and a 404 before connecting the domain.
 5. Add `futuristikzone.com` as the primary domain and `www.futuristikzone.com` as its alias. The config redirects `www` to the apex with HTTP 301. Static routes use trailing slashes.
 6. After DNS resolves, verify Netlify's automatic HTTPS certificate covers both names.
 

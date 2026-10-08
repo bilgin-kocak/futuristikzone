@@ -198,10 +198,7 @@
     "path": "/schrodingerin-kedisi-kuantum-paradoksu/",
     "title": "Schrödinger’in Kedisi: Kuantum Paradoksu"
   },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": "https://secure.gravatar.com/avatar/126f2e709deff5edd855e11ff09a115b?s=100&d=mm&r=g",

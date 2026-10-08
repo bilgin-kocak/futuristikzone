@@ -102,7 +102,7 @@ See [missing assets](missing-assets.md) for image failures and [manifest](../con
 ## C. Quality verification
 
 - **npm run build**: successful static compilation, strict TypeScript, feed generation and export validation.
-- **npm test**: 12 passing unit tests covering extraction, Atom prose, Turkish paths/search, cutoff selection, adjacent links/author metadata, retry behavior, asset validation and content rewriting.
+- **npm test**: 19 passing unit tests covering extraction, Atom prose, Turkish paths/search, cutoff selection, adjacent links/author metadata, retry behavior, asset validation, content rewriting, and regression cases for cache loss, truncated captures, failed refreshes, invalid metadata and failed image upgrades.
 - **npm run test:browser**: 7 passing Playwright tests covering Willow content/search, original pagination, desktop/mobile navigation, keyboard dismissal, 404, loaded viewport images and no horizontal overflow at 1440/768/390 px.
 - Export validator: 76 public HTML pages checked; no missing local links/images or duplicate canonicals. Every published article has required provenance/metadata. No runtime Wayback or WordPress resources.
 - Full browser route walk: 76 URLs returned HTTP 200 with no JavaScript page errors.

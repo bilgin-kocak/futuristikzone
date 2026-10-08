@@ -32,14 +32,8 @@
     "description": "Bir oyun modcusu yakın zamanda popüler oyun “The Witcher 3” için serinin hayranları için hoş bir ek olan resmi olmayan bir güncelleme yayınladı.",
     "title": ""
   },
-  "previous": {
-    "path": "/",
-    "title": ""
-  },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "previous": null,
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": null,

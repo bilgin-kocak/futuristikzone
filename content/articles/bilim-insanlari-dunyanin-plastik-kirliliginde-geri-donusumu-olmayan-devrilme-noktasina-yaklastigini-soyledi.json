@@ -32,14 +32,8 @@
     "description": "“Tüketiciler olarak, plastik çöplerimizi uygun şekilde ayırdığımızda hepsinin sihirli bir şekilde geri dönüştürüleceğine inanıyoruz.”",
     "title": ""
   },
-  "previous": {
-    "path": "/",
-    "title": ""
-  },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "previous": null,
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": null,

@@ -10,7 +10,7 @@ for(const [name,route] of Object.entries(references))for(const width of name==='
   if(name==='home')await page.getByRole('button',{name:'1. yazı:',exact:false}).click();
   await page.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=900){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,30));}window.scrollTo(0,0);});
   await page.evaluate(()=>{if(document.activeElement instanceof HTMLElement)document.activeElement.blur();});
-  await page.screenshot({path:`reports/screenshots/${name}-${width}.png`,fullPage:true});console.log(`Captured ${name} ${width}`);
+  await page.screenshot({path:`reports/screenshots/${name}-${width}.png`,fullPage:true,style:'.skip-link:not(:focus){visibility:hidden}'});console.log(`Captured ${name} ${width}`);
 }
 let routes=0;for(const route of allPaths){const r=await page.goto(`http://127.0.0.1:4173${route}`);if(r?.status()!==200)errors.push(`${route}: ${r?.status()}`);routes++;}
 await writeFile('reports/browser-validation.json',JSON.stringify({routesChecked:routes,pageErrors:errors},null,2));await browser.close();if(errors.length)throw new Error(errors.join('\n'));console.log(`All ${routes} public routes returned HTTP 200; no page errors.`);

@@ -2,7 +2,7 @@ import { readdir, readFile } from 'node:fs/promises';
 import * as cheerio from 'cheerio';
 import { normalizeUrl, unarchiveUrl } from './core.mjs';
 import { readJson, saveJson } from './io.mjs';
-const listings={};const manifest=await readJson('content/manifest.json',{});
+const listings=await readJson('content/listings.json',{});const manifest=await readJson('content/manifest.json',{});
 for(const entry of Object.values(manifest)) {
   if(entry.status!=='complete'||!entry.cacheFile||['article','page'].includes(entry.type))continue;
   const cached=await readJson(entry.cacheFile,null);if(!cached)continue;
@@ -17,6 +17,6 @@ for(const entry of Object.values(manifest)) {
   if(posts.length)listings[new URL(entry.originalUrl).pathname]={posts,source:entry.archivedUrl};
 }
 await saveJson('content/listings.json',listings);
-const articles=[];for(const f of await readdir('content/articles'))if(f.endsWith('.json'))articles.push(await readJson(`content/articles/${f}`,null));
+const articles=[];for(const f of await readdir('content/articles').catch(()=>[]))if(f.endsWith('.json'))articles.push(await readJson(`content/articles/${f}`,null));
 const assets=await readJson('content/assets.json',{});
 console.log(`${Object.keys(listings).length} original listings, ${articles.length} full article bodies; ${Object.values(assets).filter(a=>a.status==='recovered').length} mapped image references.`);

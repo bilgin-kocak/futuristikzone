@@ -5,7 +5,7 @@ import { normalizeUrl, classifyUrl, extractAtom } from './core.mjs';
 const manifest=await readJson('content/manifest.json',{});
 const assets=await readJson('content/asset-sources.json',[]);
 const knownImages=new Map(assets.map(a=>[a.url,a]));
-const index=new Map();
+const index=new Map((await readJson('content/indexed-articles.json',[])).map(p=>[p.path,p]));
 const cdx=await readJson('.archive-cache/cdx-all.json',[]);
 const history=cdx.slice(1).filter(row=>normalizeUrl(row[2])==='https://futuristikzone.com/').map(row=>row[1]);
 for(const timestamp of [...new Set(['20260209013603',...history])]) {

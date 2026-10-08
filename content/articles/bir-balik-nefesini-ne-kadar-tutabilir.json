@@ -32,14 +32,8 @@
     "description": "Oregon Eyalet Üniversitesi biyoloğu Francis Chan’ın bilimsel kariyeri, Oregon kıyılarında ilk araştırma gezisine hazırlanan doktora sonrası araştırmacıyken başladı. Onu tamamen farklı bir yolculuğa gönderen bir telefon aldı.",
     "title": ""
   },
-  "previous": {
-    "path": "/",
-    "title": ""
-  },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "previous": null,
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": null,

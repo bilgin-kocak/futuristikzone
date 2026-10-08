@@ -32,14 +32,8 @@
     "description": "“Arktik ısındığında, dünya da ısınır.”",
     "title": ""
   },
-  "previous": {
-    "path": "/",
-    "title": ""
-  },
-  "next": {
-    "path": "/",
-    "title": ""
-  },
+  "previous": null,
+  "next": null,
   "authorDetails": {
     "bio": "",
     "image": null,
