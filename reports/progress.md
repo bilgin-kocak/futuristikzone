@@ -14,7 +14,7 @@
 - [x] Static frontend and routes — 76 public routes, original categories/authors/slugs and captured pagination, search/menu/slider implemented.
 - [x] SEO and integrity — 74 sitemap URLs, RSS, Article metadata; exported local links/images/canonicals validated.
 - [x] Browser and visual verification — 12 unit tests and 7 Playwright tests pass; all 76 routes returned 200 with no page errors; 11 comparison pairs captured.
-- [ ] Commit and push
+- [x] Commit and push — main pushed to bilgin-kocak/futuristikzone; GitHub head verified against local commit 2d3964ee8e931451989d40115cd75105e07e5ac3.
 
 ## Decisions and evidence
 
@@ -31,5 +31,5 @@
 - Final: fixed invented metadata and equivalent Turkish encoding identities — null URL, invalid date/author and path normalization fixtures RED→GREEN.
 - Final: fixed failed refresh downgrade — prior verified body regression RED→GREEN.
 - Final: fixed failed image upgrade downgrade — preserved image mapping/checksum regression RED→GREEN.
-- Final gate after review fixes: npm test 19/19. Build/browser checks rerun before push.
+- Final gate after review fixes: npm test 19/19, static build succeeds, export validator 76 pages / 0 errors, Playwright 7/7, all 76 route checks return 200 with no page errors. Eleven screenshot pairs refreshed.
 - User chose to handle Netlify deployment themselves; delivery scope ends at the pushed repository and deployment instructions.
