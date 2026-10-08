@@ -1,0 +1,6 @@
+import {site} from '@/lib/content';
+export default function Footer(){const configured=process.env.NEWSLETTER_FORM_ACTION;const action=configured&&/^https:\/\//.test(configured)?configured:undefined;const fields=<><label className="sr-only" htmlFor="newsletter-email">E-posta</label><input id="newsletter-email" name={process.env.NEWSLETTER_EMAIL_FIELD||'EMAIL'} type="email" placeholder="Email..." autoComplete="email" required disabled={!action}/><button disabled={!action}>Abone Ol</button></>;return <>
+  <section className="newsletter"><h2>Bültene Abone Ol</h2><p>Yeni blog gönderileri, ipuçları ve yeni fotoğraflar için Bültenime abone olun. Güncel kalalım!</p>{action?<form className="newsletter-fields" action={action} method="POST">{fields}</form>:<div className="newsletter-fields">{fields}</div>}{!action&&<small>Bülten aboneliği henüz kullanıma açık değil.</small>}</section>
+  <footer className="site-footer"><div className="container"><nav aria-label="Sosyal hesaplar">{site.socials.map(s=><a key={s.url} href={s.url} rel="noopener noreferrer">{s.name}</a>)}</nav><p>@2021 - Tüm Hakları Saklıdır. <a href="/author/bilginkocak/">Bilgin Koçak</a></p></div></footer>
+  <a className="back-to-top" href="#top" aria-label="Sayfanın başına dön">⌃</a>
+</>;}

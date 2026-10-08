@@ -1,0 +1,1 @@
+export default function NotFound(){return <main id="main-content" className="container message-page"><h1>Sayfa bulunamadı</h1><p>Aradığınız sayfa mevcut değil.</p><a href="/arama/">Yazılarda ara</a> · <a href="/">Ana sayfaya dön</a></main>;}

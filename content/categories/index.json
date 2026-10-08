@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Çevre & Enerji",
+    "path": "/category/cevre-enerji/"
+  },
+  {
+    "name": "Featured",
+    "path": "/category/featured/"
+  },
+  {
+    "name": "Genel",
+    "path": "/category/genel/"
+  },
+  {
+    "name": "Yapay Zeka",
+    "path": "/category/yapay-zeka/"
+  },
+  {
+    "name": "Computer Vision",
+    "path": "/category/computer-vision/"
+  },
+  {
+    "name": "Fizik",
+    "path": "/category/fizik/"
+  },
+  {
+    "name": "Mimari",
+    "path": "/category/mimari/"
+  },
+  {
+    "name": "Psikoloji",
+    "path": "/category/psikoloji/"
+  },
+  {
+    "name": "Quantum",
+    "path": "/category/quantum/"
+  },
+  {
+    "name": "Sağlık",
+    "path": "/category/saglik/"
+  },
+  {
+    "name": "Sanal ve Artırılmış Gerçeklik",
+    "path": "/category/sanal-ve-artirilmis-gerceklik/"
+  },
+  {
+    "name": "Tech Update",
+    "path": "/category/tech-update/"
+  },
+  {
+    "name": "Uzay",
+    "path": "/category/uzay/"
+  },
+  {
+    "name": "Makine Öğrenmesi",
+    "path": "/category/yapay-zeka/makine-ogrenmesi/"
+  }
+]

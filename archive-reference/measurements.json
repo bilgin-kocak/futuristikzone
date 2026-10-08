@@ -1,0 +1,871 @@
+{
+  "home-1440": {
+    "url": "https://web.archive.org/web/20260209013603/https://futuristikzone.com/",
+    "viewport": 1440,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 82,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 135,
+        "y": 1,
+        "width": 350,
+        "height": 80,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 135,
+        "y": 1,
+        "width": 1170,
+        "height": 84,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area",
+        "x": 0,
+        "y": 86,
+        "width": 1440,
+        "height": 550,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 135,
+        "y": 696,
+        "width": 829.984375,
+        "height": 3201.453125,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 135,
+        "y": 1302.34375,
+        "width": 779.984375,
+        "height": 287.984375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 135,
+        "y": 696,
+        "width": 779.984375,
+        "height": 20.796875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "home-768": {
+    "url": "https://web.archive.org/web/20260209013603/https://futuristikzone.com/",
+    "viewport": 768,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 256.75,
+        "y": 1,
+        "width": 237.5,
+        "height": 58,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 21,
+        "y": 1,
+        "width": 726,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area",
+        "x": 0,
+        "y": 86,
+        "width": 768,
+        "height": 399.296875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 21,
+        "y": 545.296875,
+        "width": 726,
+        "height": 3127.75,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 21,
+        "y": 1133.65625,
+        "width": 726,
+        "height": 287.984375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 21,
+        "y": 545.296875,
+        "width": 726,
+        "height": 20.796875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "home-390": {
+    "url": "https://web.archive.org/web/20260209013603/https://futuristikzone.com/",
+    "viewport": 390,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 86.5,
+        "y": 1,
+        "width": 200,
+        "height": 52,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 10,
+        "y": 1,
+        "width": 370,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area",
+        "x": 0,
+        "y": 86,
+        "width": 390,
+        "height": 214.5,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 20,
+        "y": 360.5,
+        "width": 350,
+        "height": 5392.515625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 20,
+        "y": 1372.59375,
+        "width": 350,
+        "height": 550.71875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 20,
+        "y": 360.5,
+        "width": 350,
+        "height": 20.796875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "article-1440": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu/",
+    "viewport": 1440,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 82,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 135,
+        "y": 1,
+        "width": 350,
+        "height": 80,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 135,
+        "y": 1,
+        "width": 1170,
+        "height": 84,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 135,
+        "y": 120,
+        "width": 829.984375,
+        "height": 5618.1875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".single-post-title",
+        "x": 135,
+        "y": 146.59375,
+        "width": 779.984375,
+        "height": 70,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "30px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".post-entry",
+        "x": 135,
+        "y": 732.578125,
+        "width": 779.984375,
+        "height": 3834.453125,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "28.8px",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 965,
+        "y": 223,
+        "width": 340,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "article-390": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu/",
+    "viewport": 390,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 86.5,
+        "y": 1,
+        "width": 200,
+        "height": 52,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 10,
+        "y": 1,
+        "width": 370,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 20,
+        "y": 120,
+        "width": 350,
+        "height": 7497.109375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".single-post-title",
+        "x": 20,
+        "y": 146,
+        "width": 350,
+        "height": 42,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "18px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".post-entry",
+        "x": 20,
+        "y": 484.421875,
+        "width": 350,
+        "height": 5711.546875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "28.8px",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 20,
+        "y": 7780.109375,
+        "width": 350,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "category-1440": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/category/yapay-zeka/",
+    "viewport": 1440,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 82,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 135,
+        "y": 1,
+        "width": 350,
+        "height": 80,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 135,
+        "y": 1,
+        "width": 1170,
+        "height": 84,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 135,
+        "y": 120,
+        "width": 829.984375,
+        "height": 3666.515625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 135,
+        "y": 178.796875,
+        "width": 779.984375,
+        "height": 306.984375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 965,
+        "y": 223,
+        "width": 340,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "category-390": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/category/yapay-zeka/",
+    "viewport": 390,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 86.5,
+        "y": 1,
+        "width": 200,
+        "height": 52,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 10,
+        "y": 1,
+        "width": 370,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 20,
+        "y": 120,
+        "width": 350,
+        "height": 6476.96875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 20,
+        "y": 170.203125,
+        "width": 350,
+        "height": 569.71875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 20,
+        "y": 6759.96875,
+        "width": 350,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "about-1440": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/hakkimizda/",
+    "viewport": 1440,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 82,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 135,
+        "y": 1,
+        "width": 350,
+        "height": 80,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 135,
+        "y": 1,
+        "width": 1170,
+        "height": 84,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 135,
+        "y": 120,
+        "width": 829.984375,
+        "height": 729.78125,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".post-entry",
+        "x": 135,
+        "y": 178,
+        "width": 779.984375,
+        "height": 524.1875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "28.8px",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 965,
+        "y": 223,
+        "width": 340,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "about-390": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/hakkimizda/",
+    "viewport": 390,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 86.5,
+        "y": 1,
+        "width": 200,
+        "height": 52,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 10,
+        "y": 1,
+        "width": 370,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 20,
+        "y": 120,
+        "width": 350,
+        "height": 1220.15625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".post-entry",
+        "x": 20,
+        "y": 171,
+        "width": 350,
+        "height": 1013.5625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "28.8px",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 20,
+        "y": 1503.15625,
+        "width": 350,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "contact-1440": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/iletisim/",
+    "viewport": 1440,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 82,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 135,
+        "y": 1,
+        "width": 350,
+        "height": 80,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 135,
+        "y": 1,
+        "width": 1170,
+        "height": 84,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 135,
+        "y": 120,
+        "width": 1170,
+        "height": 1343.1875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".post-entry",
+        "x": 135,
+        "y": 178,
+        "width": 1170,
+        "height": 1137.59375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "28.8px",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 1460,
+        "y": 250.71875,
+        "width": 320,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "contact-390": {
+    "url": "https://web.archive.org/web/20250703113935/https://futuristikzone.com/iletisim/",
+    "viewport": 390,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 86.5,
+        "y": 1,
+        "width": 200,
+        "height": 52,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 10,
+        "y": 1,
+        "width": 370,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 20,
+        "y": 120,
+        "width": 350,
+        "height": 1027.90625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".post-entry",
+        "x": 20,
+        "y": 171,
+        "width": 350,
+        "height": 821.3125,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "28.8px",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 410,
+        "y": 250.71875,
+        "width": 290,
+        "height": 29.1875,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  }
+}

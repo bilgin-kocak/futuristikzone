@@ -1,0 +1,213 @@
+{
+  "type": "article",
+  "path": "/googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu/",
+  "slug": "googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu",
+  "title": "Google’ın Yeni Kuantum Çipi Willow: Paralel Evrenlerden Faydalanıyor mu?",
+  "publishedAt": "2024-12-18T13:57:55+00:00",
+  "author": {
+    "name": "Mirbey Mercan",
+    "path": "/author/mirbeymercan/"
+  },
+  "categories": [
+    {
+      "name": "Fizik",
+      "path": "/category/fizik/"
+    },
+    {
+      "name": "Quantum",
+      "path": "/category/quantum/"
+    },
+    {
+      "name": "Tech Update",
+      "path": "/category/tech-update/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "fizik",
+      "path": "/tag/fizik/"
+    },
+    {
+      "name": "quantum",
+      "path": "/tag/quantum/"
+    },
+    {
+      "name": "zaman",
+      "path": "/tag/zaman/"
+    }
+  ],
+  "excerpt": "Google, yeni kuantum çipi Willow’un sonuçlara ulaşmak için paralel evrenlerden yararlandığını iddia ederek bilim Google, kuantum hesaplama alanında çığır açan yeni çipi Willow’ı tanıtarak teknoloji dünyasında büyük bir heyecan yarattı. Şirket, bu çipin belirli benchmark testlerinde dünyanın en hızlı süper bilgisayarlarını geride bırakabileceğini iddia ediyor. Ancak, Google’ın bu iddiaları bilim camiasında tartışmalara yol açarken, kuantum bilgisayarların geleceği ve potansiyel uygulamaları üzerine geniş bir tartışma başlatıyor. Peki, Willow gerçekten paralel evrenlerden faydalanıyor mu? Detaylara birlikte göz atalım.",
+  "content": "\n\t\t<div class=\"inner-post-entry entry-content\">\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\n<p>Google, yeni kuantum çipi Willow’un sonuçlara ulaşmak için paralel evrenlerden yararlandığını iddia ederek bilim Google, kuantum hesaplama alanında çığır açan yeni çipi <a href=\"https://blog.google/technology/research/google-willow-quantum-chip/\"><strong>Willow</strong>’ı </a>tanıtarak teknoloji dünyasında büyük bir heyecan yarattı. Şirket, bu çipin belirli benchmark testlerinde dünyanın en hızlı süper bilgisayarlarını geride bırakabileceğini iddia ediyor. Ancak, Google’ın bu iddiaları bilim camiasında tartışmalara yol açarken, kuantum bilgisayarların geleceği ve potansiyel uygulamaları üzerine geniş bir tartışma başlatıyor. Peki, Willow gerçekten paralel evrenlerden faydalanıyor mu? Detaylara birlikte göz atalım.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Willow: Kuantum Hesaplamada Yeni Bir Dönem</h4>\n\n\n\n<p>Google’ın <strong>Willow</strong> çipi, 100 kuantum biti (qubit) kapasitesiyle dikkat çekiyor. Geleneksel bilgisayarlar ikili sistemde (0 ve 1) çalışırken, kuantum bilgisayarlar qubit kullanarak aynı anda hem 0 hem de 1 olabilme özelliği sayesinde çok daha karmaşık hesaplamalar yapabiliyor. Bu özellik, kuantum dolanıklık olarak bilinen fenomen sayesinde mümkün oluyor; parçacıklar arasındaki bağlantı, aralarındaki mesafe ne olursa olsun birbirlerinin durumlarını anında etkileyebiliyor.</p>\n\n\n\n<p>Google Quantum AI kurucusu <strong>Hartmut Neven</strong>, Willow çipinin performansını şu şekilde özetledi:</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p>“Willow’ın bu benchmark üzerindeki performansı hayranlık verici. Beş dakika içinde gerçekleştirdiği bir hesaplama, günümüzün en hızlı süper bilgisayarlarından birinin 10²⁵ ya da 10 sekstilyon yıl alacak kadar uzun sürede tamamlanacaktı.”</p>\n</blockquote>\n\n\n\n<p>Bu açıklama, Willow çipinin kuantum hesaplamada ne denli etkili olduğunu vurgularken, aynı zamanda kuantum hesaplamanın paralel evrenlerle bağlantılı olabileceği teorisini destekliyor.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Kuantum Üstünlüğü ve Paralel Evrenler</h4>\n\n\n\n<p>Willow çipinin başarısı, <a href=\"https://en.wikipedia.org/wiki/Quantum_supremacy\"><strong>kuantum üstünlüğü</strong> (quantum supremacy)</a> olarak adlandırılan bir dönüm noktasına işaret ediyor. Kuantum üstünlüğü, kuantum bilgisayarlarının, klasik bilgisayarların yapamadığı veya çok uzun sürede yapacakları hesaplamaları başarılı bir şekilde gerçekleştirebildiği anı ifade eder. Bu kavram, 2011 yılında fizikçi <strong>John Preskill</strong> tarafından ortaya atılmıştır.</p>\n\n\n\n<p>Google, Willow ile kuantum üstünlüğüne ulaştığını iddia ederken, bu başarının arkasında kuantum hesaplamanın <a href=\"https://en.wikipedia.org/wiki/Multiverse\"><strong>çoklu evrenler</strong> (multiverse) </a>teorisine dayandığını öne sürüyor. 1997 yılında David Deutsch tarafından öne sürülen bu teoriye göre, kuantum bilgisayarlarının hesaplamaları birçok paralel evrende aynı anda gerçekleşiyor olabilir. Bu da, Google’ın çipinin inanılmaz hızının sıradışı bir şekilde açıklanmasını sağlıyor.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img width=\"1024\" height=\"585\" src=\"https://futuristikzone.com/wp-content/uploads/2024/12/DALL%C2%B7E-2024-07-31-06.09.56-A-detailed-depiction-of-swirling-photons-inside-a-quantum-computer.-The-scene-is-illuminated-with-vibrant-glowing-trails-of-light-representing-the-ph-1024x585.webp\" alt=\"\" class=\"wp-image-2618\" /></figure>\n\n\n\n<h4 class=\"wp-block-heading\">Eleştiriler ve Şüpheler</h4>\n\n\n\n<p>Google’ın iddiaları her ne kadar etkileyici olsa da, bilim camiasında bazı eleştirilerle karşılaştı. Alman fizikçi ve bilim iletişimcisi <strong>Sabine Hossenfelder</strong>, Google’ın yaptığı hesaplamanın pratik bir kullanımı olmadığını belirtti:</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p>“İlgili hesaplama, rastgele bir dağılım üretmek. Bu hesaplamanın sonucu pratik bir kullanıma sahip değil.”</p>\n</blockquote>\n\n\n\n<p>Hossenfelder, ayrıca:</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p>“Yaklaşık 1 milyon qubit’e ihtiyaç duyduğumuzu ve halen bunun yaklaşık 1 milyon qubit gerisinde olduğumuzu gösteriyor,” şeklinde ekledi.</p>\n</blockquote>\n\n\n\n<p>Bu eleştiriler, Google’ın kuantum üstünlüğü iddiasının abartılı olabileceği ve pratik uygulamalara yönelik ilerlemenin hala uzak olduğunu gösteriyor. Ayrıca, kuantum bilgisayarların çoklu evrenlerden faydalanma iddiası, bazı bilim insanları tarafından spekülatif bulunuyor.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Geçmiş İddialar ve Rekabet</h4>\n\n\n\n<p>2019 yılında Google, yaklaşık 50 qubit’lik bir çip ile benzer iddialarda bulunmuş ve “kuantum üstünlüğü” elde ettiğini açıklamıştı. Ancak, bu iddialar rakibi <strong>IBM</strong> tarafından eleştirildi. IBM araştırmacıları, Google’ın çözmeye çalıştığı problemin klasik bilgisayarlarla daha kısa sürede çözülebileceğini savundular. 2023 yılında IBM, bu problemin klasik sistemlerde 2.5 gün içinde ve daha yüksek doğrulukla çözülebileceğini belirtti. Bu durum, Google’ın kuantum üstünlüğü iddialarının doğruluğu konusunda şüphe uyandırdı.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Kuantum Bilgisayarların Geleceği ve Potansiyel Uygulamaları</h4>\n\n\n\n<p>Willow çipi, kuantum bilgisayar teknolojisinde önemli bir adım olabilir. Ancak, pratik uygulamalar için hala uzun bir yol kat edilmesi gerekiyor. Google, Willow’u ölçeklendirerek daha kullanışlı hale getirmeyi hedefliyor. <strong>Hartmut Neven</strong>, duyurusunda:</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p>“Bu, bugüne kadar inşa edilen en ikna edici ölçeklenebilir mantıksal qubit prototipi. Gerçekten büyük kuantum bilgisayarlarının inşa edilebileceğine dair güçlü bir işaret,” dedi.</p>\n</blockquote>\n\n\n\n<p>Kuantum bilgisayarların potansiyel uygulamaları arasında şunlar bulunuyor:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>İlaç Keşfi ve Malzeme Bilimi:</strong> Kuantum bilgisayarlar, moleküler simülasyonları çok daha hızlı ve doğru bir şekilde yaparak yeni ilaçların ve malzemelerin keşfini hızlandırabilir.</li>\n\n\n\n<li><strong>Kriptografi:</strong> Kuantum bilgisayarlar, mevcut şifreleme yöntemlerini kırma potansiyeline sahip oldukları için güvenlik alanında devrim yaratabilirler.</li>\n\n\n\n<li><strong>Optimizasyon Problemleri:</strong> Karmaşık optimizasyon problemlerinin çözümünde kuantum bilgisayarlar, lojistik, finans ve üretim gibi sektörlerde büyük avantajlar sağlayabilir.</li>\n\n\n\n<li><strong>Makine Öğrenimi ve Yapay Zeka:</strong> Kuantum bilgisayarlar, büyük veri setlerinin analizinde ve yapay zeka algoritmalarının geliştirilmesinde önemli rol oynayabilirler.</li>\n</ul>\n\n\n\n<figure class=\"wp-block-image size-large\"><img width=\"1024\" height=\"585\" src=\"https://futuristikzone.com/wp-content/uploads/2024/12/1_MCLRzgn1YiS7hw9Vk651RA-1024x585.png\" alt=\"\" class=\"wp-image-2623\" /></figure>\n\n\n\n<h4 class=\"wp-block-heading\">Çoklu Evrenler Teorisi ve Alternatif Yaklaşımlar</h4>\n\n\n\n<p>Google’ın çoklu evrenler teorisine dayanan iddiası, fizik alanında çeşitli tartışmalara yol açıyor. <strong>David Deutsch</strong>, bu teoriyi destekleyen önemli bir fizikçidir ve kuantum bilgisayarlarının çoklu evrenlerde çalıştığı fikrini savunmaktadır. Ancak, alternatif bir teori olan <strong>Kopenhag Yorumu</strong> ise kuantum parçacıklarının ölçümden önce tüm olası durumlarda bulunduğunu öne sürer. Bu teori, kuantum bilgisayarların çoklu evrenlere değil, olasılıkların süperpozisyonuna dayandığını savunur.</p>\n\n\n\n<p>Bu iki teori arasında hala kesin bir uzlaşma sağlanamamış olup, kuantum hesaplamanın doğası hakkında daha fazla araştırmaya ihtiyaç duyulmaktadır.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Google ve Kuantum Bilgisayar Rekabeti</h4>\n\n\n\n<p>Google’ın kuantum bilgisayar alanındaki çalışmaları, rakibi IBM ve diğer teknoloji devleriyle olan rekabeti de alevlendirmiş durumda. IBM, kuantum bilgisayarların geliştirilmesi konusunda önemli adımlar atarken, Google da sürekli olarak yeni ve daha güçlü qubit’ler geliştirmeye odaklanıyor. Bu rekabet, kuantum bilgisayar teknolojisinin hızla ilerlemesine katkıda bulunurken, aynı zamanda sektördeki yeniliklerin hızlanmasını da sağlıyor.</p>\n\n\n\n<h4 class=\"wp-block-heading\">Sonuç: Willow’ın Önemi ve Gelecekteki Yeri</h4>\n\n\n\n<p>Google’ın Willow çipi, kuantum hesaplama alanında önemli bir ilerleme olarak görülse de, iddialarının doğruluğu ve pratik uygulamalarının geleceği konusunda hala tartışmalar sürüyor. Kuantum bilgisayarların potansiyeli büyük olsa da, bu teknolojinin günlük yaşama entegrasyonu için daha fazla araştırma ve geliştirme yapılması gerekiyor.</p>\n\n\n\n<p>Willow, kuantum bilgisayarların daha büyük ölçeklerde ve daha karmaşık uygulamalarda kullanılabilir hale gelmesi için atılmış önemli bir adım olarak değerlendirilebilir. Ancak, Google’ın paralel evrenlerden yararlanma iddiaları, bilim camiasında spekülatif bulunmakta ve bu konuda daha fazla kanıt ve araştırmaya ihtiyaç duyulmaktadır.</p>\n\n\n\n<p><strong>DAHA FAZLASI İÇİN:</strong> <a href=\"https://blog.google/technology/research/google-willow-quantum-chip/\">Son Teknoloji Kuantum Çipi “Willow” ile Tanışın</a> <strong>[Google]</strong></p>\n\n\n\n<p></p>\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t<div class=\"penci-single-link-pages\">\n\t\t\t\t\t\t</div>\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t</div>\n\t",
+  "featuredImage": "http://futuristikzone.com/wp-content/uploads/2024/12/02_Blog_Header_-_Hero_Shot_2096x1182-1024x577.png",
+  "images": [
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/FuturistikZone.png",
+      "alt": "FuturistikZone",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/12/02_Blog_Header_-_Hero_Shot_2096x1182-1170x660.png",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/12/DALL%C2%B7E-2024-07-31-06.09.56-A-detailed-depiction-of-swirling-photons-inside-a-quantum-computer.-The-scene-is-illuminated-with-vibrant-glowing-trails-of-light-representing-the-ph-1024x585.webp",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/12/1_MCLRzgn1YiS7hw9Vk651RA-1024x585.png",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://secure.gravatar.com/avatar/126f2e709deff5edd855e11ff09a115b?s=100&d=mm&r=g",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-22-13.12.16-An-artistic-interpretation-of-Schrodingers-Cat-thought-experiment.-A-cat-inside-a-transparent-box-with-a-visible-radioactive-atom-and-a-Geiger-counte-585x390.webp",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-07-09.31.40-An-abstract-visual-representation-of-a-universe-where-time-flows-backward.-The-image-features-a-swirling-cosmic-scene-with-galaxies-stars-and-plane-585x390.webp",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/11/karanlik-enerji-nedir-585x390.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/10/2ee56f25-297a-4510-877f-8ae631754600-585x390.webp",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/10/ae2cbe4c74a79df332455ab8fe742e7c-585x390.jpeg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/12/02_Blog_Header_-_Hero_Shot_2096x1182-585x390.png",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-22-13.12.16-An-artistic-interpretation-of-Schrodingers-Cat-thought-experiment.-A-cat-inside-a-transparent-box-with-a-visible-radioactive-atom-and-a-Geiger-counte-585x390.webp",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-07-09.31.40-An-abstract-visual-representation-of-a-universe-where-time-flows-backward.-The-image-features-a-swirling-cosmic-scene-with-galaxies-stars-and-plane-585x390.webp",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/FuturistikZone.png",
+      "alt": "FuturistikZone",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/FuturistikZone.png",
+      "alt": "FuturistikZone",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2023/04/gunes-firtinasi-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/08/fdata-robot-K0Hcd9nEmLY-unsplash-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/image1-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/mike-kiev-Opzk_hvwO9Q-unsplash1-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2023/04/shipping-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/08/rafik-wahba-W4gQtCkK1F0-unsplash1-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    }
+  ],
+  "links": [
+    "https://futuristikzone.com/",
+    "https://futuristikzone.com/hakkimizda/",
+    "https://futuristikzone.com/iletisim/",
+    "https://futuristikzone.com/category/fizik/",
+    "https://futuristikzone.com/category/quantum/",
+    "https://futuristikzone.com/category/tech-update/",
+    "https://futuristikzone.com/author/mirbeymercan/",
+    "https://futuristikzone.com/wp-content/uploads/2024/12/02_Blog_Header_-_Hero_Shot_2096x1182.png",
+    "https://futuristikzone.com/tag/fizik/",
+    "https://futuristikzone.com/tag/quantum/",
+    "https://futuristikzone.com/tag/zaman/",
+    "https://futuristikzone.com/cdn-cgi/l/email-protection/",
+    "https://futuristikzone.com/schrodingerin-kedisi-kuantum-paradoksu/",
+    "https://futuristikzone.com/zamanin-geriye-aktigi-bir-evren-olasi-bir-gerceklik-mi/",
+    "https://futuristikzone.com/karanlik-enerji-ve-kara-deliklerin-gizemli-iliskisi/",
+    "https://futuristikzone.com/metaverse-ve-sanal-gerceklik-dijital-dunyalarin-gelecegi/",
+    "https://futuristikzone.com/kuantum-mekanigi-normal-olmayan-bir-dunyaya-giris/",
+    "https://futuristikzone.com/googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu/",
+    "https://futuristikzone.com/saglik-teknolojilerinde-yenilikler-gen-duzenleme-ve-dijital-saglik-cozumleri/",
+    "https://futuristikzone.com/karbon-yakalama-ve-yenilenebilir-enerji/",
+    "https://futuristikzone.com/category/cevre-enerji/",
+    "https://futuristikzone.com/category/computer-vision/",
+    "https://futuristikzone.com/category/featured/",
+    "https://futuristikzone.com/category/genel/",
+    "https://futuristikzone.com/category/mimari/",
+    "https://futuristikzone.com/category/psikoloji/",
+    "https://futuristikzone.com/category/saglik/",
+    "https://futuristikzone.com/category/sanal-ve-artirilmis-gerceklik/",
+    "https://futuristikzone.com/category/uzay/",
+    "https://futuristikzone.com/category/yapay-zeka/",
+    "https://futuristikzone.com/category/yapay-zeka/makine-ogrenmesi/",
+    "https://futuristikzone.com/2025te-dunyayi-etkileyecek-gunes-firtinasi/",
+    "https://futuristikzone.com/alibaba-teslimat-robotlari-sigara-molasi-vermiyor/",
+    "https://futuristikzone.com/microsoftun-teknolojisi-holograminizin-baska-bir-dil-konusmasini-saglayabilir/",
+    "https://futuristikzone.com/rusya-marsta-nukleer-santral-kurmayi-oneriyor/",
+    "https://futuristikzone.com/lojistik-performansin-iyilestirilmesi-ve-enerji-kullaniminin-azaltilmasi-icin-yeni-yaklasimlar/",
+    "https://futuristikzone.com/bilim-insanlari-dunyanin-ilk-karbonsuz-celigini-gelistirdi/"
+  ],
+  "originalUrl": "https://futuristikzone.com/googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu/",
+  "archivedUrl": "https://web.archive.org/web/20250703113935id_/https://futuristikzone.com/googlein-yeni-kuantum-cipi-willow-paralel-evrenlerden-faydalaniyor-mu/",
+  "archiveTimestamp": "20250703113935",
+  "recoveryStatus": "complete",
+  "recoveryNote": "Editorial body extracted from the archived DOM; completeness is relative to the available capture.",
+  "seo": {
+    "description": "Google, yeni kuantum çipi Willow’un sonuçlara ulaşmak için paralel evrenlerden yararlandığını iddia ederek bilim Google, kuantum hesaplama alanında çığır açan yeni çipi Willow’ı tanıtarak teknoloji dünyasında büyük bir heyecan yarattı. Şirket, bu çipin belirli benchmark testlerinde dünyanın en hızlı süper bilgisayarlarını geride bırakabileceğini iddia ediyor. Ancak, Google’ın bu iddiaları bilim camiasında tartışmalara yol açarken, kuantum bilgisayarların geleceği ve potansiyel uygulamaları üzerine geniş bir tartışma başlatıyor. Peki, Willow gerçekten paralel evrenlerden faydalanıyor mu? Detaylara birlikte göz atalım.",
+    "title": "Google’ın Yeni Kuantum Çipi Willow: Paralel Evrenlerden Faydalanıyor mu? - FuturistikZone"
+  },
+  "previous": {
+    "path": "/schrodingerin-kedisi-kuantum-paradoksu/",
+    "title": "Schrödinger’in Kedisi: Kuantum Paradoksu"
+  },
+  "next": {
+    "path": "/",
+    "title": ""
+  },
+  "authorDetails": {
+    "bio": "",
+    "image": "https://secure.gravatar.com/avatar/126f2e709deff5edd855e11ff09a115b?s=100&d=mm&r=g",
+    "socials": [
+      "https://instagram.com/emirhmercan",
+      "https://www.linkedin.com/in/mirbeymercan/"
+    ]
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "home-390": {
+    "url": "https://web.archive.org/web/20260209013603/https://futuristikzone.com/",
+    "viewport": 390,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 86.5,
+        "y": 1,
+        "width": 200,
+        "height": 52,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 10,
+        "y": 1,
+        "width": 370,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area",
+        "x": 0,
+        "y": 86,
+        "width": 390,
+        "height": 214.5,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area .item",
+        "x": -1950,
+        "y": 86,
+        "width": 390,
+        "height": 214.5,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area .penci-image-holder",
+        "x": -1950,
+        "y": 86,
+        "width": 390,
+        "height": 214.5,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".penci-featured-content-right",
+        "x": -1950,
+        "y": 86,
+        "width": 390,
+        "height": 214.5,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".feat-text-right",
+        "x": -1920,
+        "y": 159.25,
+        "width": 330,
+        "height": 68,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area h3",
+        "x": -1905,
+        "y": 174.25,
+        "width": 300,
+        "height": 38,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 20,
+        "y": 360.5,
+        "width": 350,
+        "height": 5392.515625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#sidebar",
+        "x": 20,
+        "y": 5813.015625,
+        "width": 350,
+        "height": 2744.765625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 20,
+        "y": 1372.59375,
+        "width": 350,
+        "height": 550.71875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 20,
+        "y": 360.5,
+        "width": 350,
+        "height": 20.796875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "home-768": {
+    "url": "https://web.archive.org/web/20260209013603/https://futuristikzone.com/",
+    "viewport": 768,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 256.75,
+        "y": 1,
+        "width": 237.5,
+        "height": 58,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 21,
+        "y": 1,
+        "width": 726,
+        "height": 60,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area",
+        "x": 0,
+        "y": 86,
+        "width": 768,
+        "height": 399.296875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area .item",
+        "x": -5061,
+        "y": 86,
+        "width": 726,
+        "height": 399.296875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area .penci-image-holder",
+        "x": -5061,
+        "y": 86,
+        "width": 726,
+        "height": 399.296875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".penci-featured-content-right",
+        "x": -5061,
+        "y": 86,
+        "width": 726,
+        "height": 399.296875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".feat-text-right",
+        "x": -4923,
+        "y": 215.84375,
+        "width": 450,
+        "height": 139.59375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area h3",
+        "x": -4903,
+        "y": 256.4375,
+        "width": 410,
+        "height": 84,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 21,
+        "y": 545.296875,
+        "width": 726,
+        "height": 3127.75,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#sidebar",
+        "x": 21,
+        "y": 3733.046875,
+        "width": 726,
+        "height": 3347.390625,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 21,
+        "y": 1133.65625,
+        "width": 726,
+        "height": 287.984375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 21,
+        "y": 545.296875,
+        "width": 726,
+        "height": 20.796875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  },
+  "home-1440": {
+    "url": "https://web.archive.org/web/20260209013603/https://futuristikzone.com/",
+    "viewport": 1440,
+    "bodyFont": "\"Source Sans Pro\", sans-serif",
+    "overflow": false,
+    "elements": [
+      {
+        "selector": "#navigation",
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 82,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#logo img",
+        "x": 135,
+        "y": 1,
+        "width": 350,
+        "height": 80,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".container",
+        "x": 135,
+        "y": 1,
+        "width": 1170,
+        "height": 84,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area",
+        "x": 0,
+        "y": 86,
+        "width": 1440,
+        "height": 550,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area .item",
+        "x": -3375,
+        "y": 86,
+        "width": 1170,
+        "height": 550,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area .penci-image-holder",
+        "x": -3375,
+        "y": 86,
+        "width": 1170,
+        "height": 550,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(48, 79, 254)"
+      },
+      {
+        "selector": ".penci-featured-content-right",
+        "x": -2625,
+        "y": 86,
+        "width": 420,
+        "height": 550,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".feat-text-right",
+        "x": -2625,
+        "y": 227.3125,
+        "width": 420,
+        "height": 267.375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".featured-area h3",
+        "x": -2605,
+        "y": 252.90625,
+        "width": 380,
+        "height": 99,
+        "font": "\"Work Sans\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#main",
+        "x": 135,
+        "y": 696,
+        "width": 829.984375,
+        "height": 3201.453125,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": "#sidebar",
+        "x": 965,
+        "y": 696,
+        "width": 340,
+        "height": 2724.75,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-grid .list-post",
+        "x": 135,
+        "y": 1302.34375,
+        "width": 779.984375,
+        "height": 287.984375,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "color": "rgb(49, 49, 49)"
+      },
+      {
+        "selector": ".penci-border-arrow",
+        "x": 135,
+        "y": 696,
+        "width": 779.984375,
+        "height": 20.796875,
+        "font": "\"Source Sans Pro\", sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "20.8px",
+        "color": "rgb(49, 49, 49)"
+      }
+    ]
+  }
+}

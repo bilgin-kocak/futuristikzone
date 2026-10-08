@@ -1,0 +1,103 @@
+{
+  "type": "page",
+  "path": "/iletisim/",
+  "slug": "iletisim",
+  "title": "İletişim",
+  "publishedAt": "2018-08-24T03:50:19+03:00",
+  "author": {
+    "name": "Bilgin Koçak",
+    "path": "/author/bilginkocak/"
+  },
+  "categories": [],
+  "tags": [],
+  "excerpt": "Bir sorunuz, bir yorumunuz mu var? Bir şekilde işbirliği yapmak ister misiniz? Söyleyecek güzel bir şeyiniz mi var?Sizden haber almak isteriz",
+  "content": "\n\t\t<div class=\"inner-post-entry entry-content\">\n\t\t\t<p><img src=\"https://futuristikzone.com/wp-content/uploads/2018/09/contacty.jpg\" alt=\"\" width=\"1200\" height=\"800\" />Bir sorunuz, bir yorumunuz mu var? Bir şekilde işbirliği yapmak ister misiniz? Söyleyecek güzel bir şeyiniz mi var? Sizden haber almak isteriz. Aşağıdan bize bir mesaj atın, mümkün olan en kısa sürede size geri döneceğimizden emin olabilirsiniz. Teşekkürler!</p>\n\n<div class=\"wpcf7 no-js\">\n<div class=\"screen-reader-response\"><p></p> <ul></ul></div>\n\n</div>\n\n\t\t\t\t\t</div>\n\t",
+  "featuredImage": "http://futuristikzone.com/wp-content/uploads/2018/09/contacty.jpg",
+  "images": [
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/FuturistikZone.png",
+      "alt": "FuturistikZone",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2018/09/contacty.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/FuturistikZone.png",
+      "alt": "FuturistikZone",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/FuturistikZone.png",
+      "alt": "FuturistikZone",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2023/04/gunes-firtinasi-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/08/fdata-robot-K0Hcd9nEmLY-unsplash-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/mike-kiev-Opzk_hvwO9Q-unsplash1-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/07/image1-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2023/04/shipping-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "url": "https://futuristikzone.com/wp-content/uploads/2021/08/rafik-wahba-W4gQtCkK1F0-unsplash1-263x175.jpg",
+      "alt": "",
+      "caption": ""
+    }
+  ],
+  "links": [
+    "https://futuristikzone.com/",
+    "https://futuristikzone.com/hakkimizda/",
+    "https://futuristikzone.com/iletisim/",
+    "https://futuristikzone.com/author/bilginkocak/",
+    "https://futuristikzone.com/cdn-cgi/l/email-protection/",
+    "https://futuristikzone.com/2025te-dunyayi-etkileyecek-gunes-firtinasi/",
+    "https://futuristikzone.com/alibaba-teslimat-robotlari-sigara-molasi-vermiyor/",
+    "https://futuristikzone.com/rusya-marsta-nukleer-santral-kurmayi-oneriyor/",
+    "https://futuristikzone.com/microsoftun-teknolojisi-holograminizin-baska-bir-dil-konusmasini-saglayabilir/",
+    "https://futuristikzone.com/lojistik-performansin-iyilestirilmesi-ve-enerji-kullaniminin-azaltilmasi-icin-yeni-yaklasimlar/",
+    "https://futuristikzone.com/bilim-insanlari-dunyanin-ilk-karbonsuz-celigini-gelistirdi/"
+  ],
+  "originalUrl": "https://futuristikzone.com/iletisim/",
+  "archivedUrl": "https://web.archive.org/web/20250703113935id_/https://futuristikzone.com/iletisim/",
+  "archiveTimestamp": "20250703113935",
+  "recoveryStatus": "complete",
+  "recoveryNote": "Editorial body extracted from the archived DOM; completeness is relative to the available capture.",
+  "seo": {
+    "description": "Bir sorunuz, bir yorumunuz mu var? Bir şekilde işbirliği yapmak ister misiniz? Söyleyecek güzel bir şeyiniz mi var?Sizden haber almak isteriz",
+    "title": "İletişim - Bizimle İletişime Geçin - FuturistikZone %"
+  },
+  "previous": {
+    "path": "/",
+    "title": ""
+  },
+  "next": {
+    "path": "/",
+    "title": ""
+  },
+  "authorDetails": {
+    "bio": "",
+    "image": null,
+    "socials": []
+  }
+}
