@@ -121,7 +121,7 @@ See [missing assets](missing-assets.md) for image failures and [manifest](../con
 
 ## D. Deployment
 
-**netlify.toml** uses **npm run build**, publishes **out**, chooses Node 22 and redirects www to the canonical apex domain. No deployment or DNS change has been performed. Connecting the pushed GitHub repository to an authenticated Netlify account is required. [README](../README.md) contains exact run/build/recovery commands, Netlify setup, HTTPS/domain instructions, and contact/newsletter activation steps. Preserve GoDaddy nameservers and all existing MX, SPF, DKIM and DMARC records when adding Netlify's website records.
+**netlify.toml** uses **npm run build**, publishes **out** and chooses Node 22. The exported **_redirects** and **_headers** files supply the canonical www-to-apex redirect and static headers for both Git and manual deployments. No deployment or DNS change has been performed. Connect the pushed GitHub repository to Netlify, or upload the built **out** folder. [README](../README.md) contains exact run/build/recovery commands, Netlify setup, HTTPS/domain instructions, and contact/newsletter activation steps. Preserve GoDaddy nameservers and all existing MX, SPF, DKIM and DMARC records when adding Netlify's website records.
 
 ## E. Optional future improvements
 

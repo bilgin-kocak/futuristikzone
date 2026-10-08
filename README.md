@@ -61,10 +61,14 @@ Browser audit commands require installed Chromium. The local capture command req
 2. Deploy branch `main`. The committed `netlify.toml` sets build command `npm run build`, publish directory `out`, and Node 22.
 3. This is a static export; no Next.js server runtime is required. `NETLIFY_NEXT_PLUGIN_SKIP=true` keeps deployment focused on the exported files. See [Next.js static exports](https://nextjs.org/docs/app/guides/static-exports).
 4. Verify the assigned `*.netlify.app` URL, an article URL, `/page/2/`, `/sitemap.xml`, `/rss.xml`, and a 404 before connecting the domain.
-5. Add `futuristikzone.com` as the primary domain and `www.futuristikzone.com` as its alias. The config redirects `www` to the apex with HTTP 301. Static routes use trailing slashes.
+5. Add `futuristikzone.com` as the primary domain and `www.futuristikzone.com` as its alias. The exported `_redirects` file redirects `www` to the apex with HTTP 301. Static routes use trailing slashes.
 6. After DNS resolves, verify Netlify's automatic HTTPS certificate covers both names.
 
 Deployment has not been performed in this checkout. An authenticated Netlify account/site connection is needed. No DNS records were changed.
+
+### Manual folder upload
+
+Run `npm run build`, then upload the entire `out/` folder to [Netlify Drop](https://app.netlify.com/drop). It contains `index.html` at the root, all article pages, JavaScript/CSS, images, feeds, and the Netlify `_redirects` and `_headers` files. Those files supply the same redirects and headers for both manual uploads and Git deployments. After an update, rebuild and upload the new `out/` folder through the site's Deploys page.
 
 ### GoDaddy DNS and business email
 
